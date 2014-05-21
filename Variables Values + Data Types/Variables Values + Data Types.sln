@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesValuesandDataTypes", "VeriablesValuesandDataTypes\VariablesValuesandDataTypes.csproj", "{6C24FBBE-F2AE-4F7B-81DD-A6437D9EC199}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VariablesValuesandDataTypes", "VariablesValuesandDataTypes\VariablesValuesandDataTypes.csproj", "{6C24FBBE-F2AE-4F7B-81DD-A6437D9EC199}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

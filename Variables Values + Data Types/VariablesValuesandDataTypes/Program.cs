@@ -58,9 +58,20 @@ namespace VariablesValuesandDataTypes
             // Variable names are decided upon by you when you declare the variable.
             // Like everything else in C#, variable names are case sensitive.
             int number = 25;
-            int Number;
-            int NUMber;
+            int Number = 15;
+            int NUMber = 10;
             //all the above are different variables
+
+            // Boolean expressions and logical operators
+            int highNumber = 100;
+            int lowNumber = 2;
+
+            bool highIsBiggerThanLow = highNumber > lowNumber;
+            //                         \Relational Expression/
+            //                          \   true or false?  /
+            bool highIsBiggerThan50 = highNumber > 50;
+            bool highIs100 = highNumber == 100;
+            bool highIsBiggerThanLowAndBiggerThan50 = highIsBiggerThanLow && highIsBiggerThan50;
         }
     }
 }
