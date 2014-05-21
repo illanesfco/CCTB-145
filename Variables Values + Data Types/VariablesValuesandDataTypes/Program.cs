@@ -47,7 +47,20 @@ namespace VariablesValuesandDataTypes
             
 
             //Variables of various data types, with values
+            string sentence = "A string can hold many characters.";
+            string empty = ""; // A string can be "empty" (zero characters)
+            string nothing = null; // A string can be null (not the same as "empty")
 
+            bool booleanVariable = true; // Booleans can only hold values of true or false
+            //Please note that true is not the same as "true"
+            //                \bool/                  \string/
+
+            // Variable names are decided upon by you when you declare the variable.
+            // Like everything else in C#, variable names are case sensitive.
+            int number = 25;
+            int Number;
+            int NUMber;
+            //all the above are different variables
         }
     }
 }
