@@ -9,10 +9,10 @@ namespace Assignment4
     class Student
     {
         //Properties
-        private int Id { get; set; }
-        private string Name { get; set; }
-        private string StudentId { get; set; }
-        private int CoursesTaken { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string StudentId { get; set; }
+        public int CoursesTaken { get; set; }
 
         //Constructos
         public Student()
