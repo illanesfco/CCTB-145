@@ -15,6 +15,14 @@ namespace Assignment4
             Student student = new Student(0001, Console.ReadLine(), "1234");
             student.OutputStudentDetails();
 
+            myApp.PromptForMoreCourses(student);
+            
+            student.OutputStudentDetails();
+            
+        }
+
+        private void PromptForMoreCourses(Student student)
+        {
             string choice;
             do
             {
@@ -39,11 +47,8 @@ namespace Assignment4
                             break;
                         }
                 }
-                
+
             } while (!choice.Equals("Y") && !choice.Equals("N"));
-            
-            student.OutputStudentDetails();
-            
         }
     }
 }
